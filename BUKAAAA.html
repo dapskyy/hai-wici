@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UNTUK WICI</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .container {
+      max-width: 90%;
+      width: 400px;
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 30px 20px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    }
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 1.1em;
+      margin-bottom: 25px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 12px;
+      font-size: 1em;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .yes {
+      background-color: #ff6f91;
+      color: white;
+    }
+    .sure {
+      background-color: #ffb347;
+      color: white;
+    }
+    .music-btn {
+      background-color: #6fafff;
+      color: white;
+    }
+    button:hover {
+      opacity: 0.9;
+    }
+    footer {
+      margin-top: 20px;
+      font-size: 0.8em;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hai WICIIIII</h1>
+    <p>Maukah kamu berteman denganku lagi?</p>
+    <button class="yes" onclick="alert('Yeay! AKHIRNYAAA')">Iya!</button>
+    <button class="sure" onclick="alert('HEHE MAKASIH YA')">Pasti dong!</button>
+    <button class="music-btn" onclick="document.getElementById('myAudio').play()">Putar Musik 🎵</button>
+    <audio id="myAudio" src="givemeasign.mp3"></audio>
+    <footer>© dari seseorang yang merasa bersalah💌</footer>
+  </div>
+</body>
+</html>
